@@ -22,7 +22,7 @@ Each season there are thousands of NCAA basketball games played between Division
 
 Our dataset contains 
 
-| Team1ScoreDiff | Team2ScoreDiff | ... | Team1ORTG | Team2ORTG | ... | CoachDiff | ... | Team1ScoreDiff-1 | Team2ScoreDiff-1 | ... | Team1H | Team1H | ... | Team1fhf52 | Team2fhf52 | ... | Target |
+| Team1ScoreDiff | Team2ScoreDiff | ... | Team1ORTG | Team2ORTG | ... | CoachDiff | ... | Team1ScoreDiff-1 | Team2ScoreDiff-1 | ... | Team1H | Team2H | ... | Team1fhf52 | Team2fhf52 | ... | Target |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10.823 | 9.424 | ... | 1.007 | 1.040 | ... | 608 | ... | 6.456 | 5.345 | ... | 1 | 0 | ... | 0.416 | 0.200 | ... | 1 |
 | 7.903 | 2.548 | ... | 1.101 | 0.975 | ... | 0 | ... | 8.623 | -1.456 | ... | 0 | 1 | ... | 0.750 | 1.000 | ... | 0 |
@@ -31,10 +31,7 @@ Our dataset contains
 
 ## Hypertuning Parameters and Modeling
 
-Instead of modeling for home value, we modeled and forecast the historical return on investment for 2-years and 5-years instead. This is because, there are way more factors that influence home value and overtime, return on investment over a period of time limit the influence of those factors.
-We keep our last forecasted value, RMSE and a variability metric for that forecast as well. Since our investor is risk averse, I wanted to make sure we choose the forecasts that are the best predicted. Therefore, by taking the quotient of size of confidence interval over highest value of in the interval, we can see the significance of the size of confidence interval given the forecasted value obtained.
 
-Our code involved a four step process of finding number of differences and seasonal differences, finding order using those number of differences, fitting the model and then forecasting our return on investment.
 
 ## Interpreting Results
 
