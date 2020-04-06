@@ -100,6 +100,17 @@ Before going into results, know that 65.2% of our upsets had a higher team ID.
 
 When training over combined regular season data, we get an accuracy score of 75.3%, having a true positive rate of 73.2% and true negative rate of 77.3%. Therefore, we were more successful in predicting that the team with the higher team ID wins. In 2017, we predicted 60% of our upsets correctly and 86.2% of our overall matchups. In 2018, we predicted 57.1% of our upsets correctly and 71.4% of our overall matchups. In 2019 however, we only predicted 45.5% of our upsets correctly and 67.9% of our overall matchups.
 
+The 8 most important features (in order) for if the predicting lower ID team wins are:
+
+-- The average 2-point field goal percentage difference for lower ID team  
+-- The average free throw percentage difference for lower ID team
+-- The average score difference for higher ID team
+-- The average steal difference for lower ID team
+-- If the location is neutral for lower ID team
+-- The average net rating of higher ID team
+-- The average true shooting of higher ID team
+-- The average 2 point field goal percentage of first 5 minutes of the first half for the higher ID team
+
 When training over each season independently, we get an accuracy score of 76.5% for all three years, having a true positive rate of 73.2% and true negative rate of 79.5%. Therefore, we were even more successful in predicting that the team with the higher team ID wins. In 2017, we predicted 60% of our upsets correctly and 86.2% of our overall matchups. In 2018, we predicted 42.9% of our upsets correctly instead but still 71.4% of our overall matchups. In 2019 however, we have now predicted 54.5% of our upsets correctly and also 71.4% of our overall matchups.
 
 There are various factors that influence a basketball game, not only in the statistics but also external factors like elevation of performance and momentum heading into a game. How to value importance of those factors for each game is another issues as one variable may be more important than another depending on the opponent and day. It is important to note that we were successful in predicting just over 76% of first round matchups using solely regular season results. With more in depth understanding of feature engineering for this topic, feature importance and gathering of data outside of regular season, we may construct a more accurate model.
