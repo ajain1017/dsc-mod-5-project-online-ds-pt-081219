@@ -16,13 +16,13 @@ An upset is considered a lower seed beating a higher seed team (i.e. 15 beats 2,
 
 #### EDA:
 
-<img src = "project_files/averages.png" style="width:250px"/>
+<img src = "project_files/averages.png" style="width:125px"/>
 
 
 If you are to compare the average points scored by the winning team and the average points scored by the losing team, you can see a 10 point difference in every season. The highest average points scored by the losing team doesn't even reach the lowest average scored by the winning team, showing you that most of these games were not just won but dominated by the winning team.
 
 
-<img src = "project_files/upsetsovertime.png" style="width:250px"/>
+<img src = "project_files/upsetsovertime.png" style="width:175px"/>
 
 
 Since 2003, there has always been 4 or more upsets per year. 2016 had the largest number of upsets, at 13, and 2004 had the lowest at 4. Thre three seasons we are looking to predict, 2017-2019, had an increasing number of upsets with 2019 having the most at 12.
