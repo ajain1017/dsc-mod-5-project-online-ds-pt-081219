@@ -3,7 +3,7 @@
 
 (technical presentation can be found in index.ipynb file in project_files folder)
 
-hi
+
 ## Goal
 
 In this notebook, we construct a classifier to attempt to forecast the outcomes of 2017-2019 NCAAM March Madness first round matchups. Although our goal is overall preditions of the first round, we will keep special attention to predicting the upsets that occur.
